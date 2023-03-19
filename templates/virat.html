@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIRAT</title>
+    <link rel="stylesheet" href="{% static 'css/cherry.css' %}">
+</head>
+<body>
+    <div align="center">
+        <a href="{% url 'home' %}" id="V">Home</a>
+        <a href="{% url 'dhoni' %}" id="V">Dhoni</a>
+        <a href="{% url 'sushanth' %}" id="V">Sushanth</a>
+        <a href="{% url 'sachin' %}" id="V">Sachin</a>
+        <h1 align="center" id="B">Virat</h1>
+        <p>
+            Virat Kohli (born 5 November 1988) is an Indian international cricketer and former captain of the India national cricket team. Widely regarded as one of the greatest batsmen of all time, Kohli plays as a right-handed batsman for Royal Challengers Bangalore in the Indian Premier League and for Delhi in domestic Indian cricket. With 40 wins out of 68 tests, Kohli is India's most successful test captain, and one of the most successful test captains of all time, behind only Graeme Smith, Ricky Ponting and Steve Waugh.
+        </p>
+        <img src="{% static 'images/VIRAT.jpg' %}">
+        <img src="{% static 'images/VIRAT1.jpg' %}">
+        <img src="{% static 'images/VIRAT2.webp' %}">
+        <img src="{% static 'images/virat3.avif' %}">
+</body>
+</html>

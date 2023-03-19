@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushanth</title>
+    <link rel="stylesheet" href="{% static 'css/cherry.css' %}">
+</head>
+<body>
+    <div align="center">
+        <a href="{% url 'home' %}" id="V">Home</a>
+        <a href="{% url 'dhoni' %}" id="V">Dhoni</a>
+        <a href="{% url 'virat' %}" id="V">Virat</a>
+        <a href="{% url 'sachin' %}" id="V">Sachin</a>
+
+        <h1 align="center" id="C">Rohit</h1>
+        <p>
+            M.S. Dhoni: The Untold Story is a 2016 Indian Hindi-language biographical sports drama film written and directed by Neeraj Pandey. It is based on the life of former Test, ODI and T20I captain of the Indian national cricket team, Mahendra Singh Dhoni. The film stars the late Sushant Singh Rajput as MS Dhoni, along with Disha Patani, Kiara Advani, and Anupam Kher. The film chronicles the life of Dhoni from a young age through a series of life events.
+        </p>
+        <img src="{% static 'images/sus1.jpg' %}">
+        <img src="{% static 'images/sus7.jpg' %}">
+        <img src="{% static 'images/sus6.jpg' %}">
+        <img src="{% static 'images/sus5.webp' %}">        
+</body>
+</html>
